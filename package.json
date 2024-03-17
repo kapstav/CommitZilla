@@ -4,9 +4,9 @@
     "description": "A simple Node.js program that prints 'Hello, World!' to the console",
     "main": "aone.js",
     "scripts": {
-      "test": "sh ./runnertest.sh",
-      "start": "node aone.js"
-    },
+        "test": "jest",
+        "start": "node aone.js"
+      },
     "keywords": [
       "node",
       "hello",

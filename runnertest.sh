@@ -1,1 +1,1 @@
-console.log('No tests yet Kapil'); 
+echo 'No tests yet Kapil' 
