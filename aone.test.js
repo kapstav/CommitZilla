@@ -18,3 +18,15 @@ describe('helloWorld function', () => {
     consoleLogSpy.mockRestore();
   });
 });
+
+  describe('helloSum function', () => {
+    // Test case
+    test('calculates the sum correctly', () => {
+        // Call the function
+        const result = helloSum();
+
+        // Expect the result to be 11
+        expect(result).toBe(11);
+    });
+});
+
