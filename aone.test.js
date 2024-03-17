@@ -4,7 +4,7 @@ const helloWorld = require('./aone');
 // Test suite
 describe('helloWorld function', () => {
   // Test case
-  test('prints "Hello, World!" to the console', () => {
+  test('prints "Hello, World!." to the console', () => {
     // Mock console.log
     const consoleLogSpy = jest.spyOn(console, 'log').mockImplementation();
 
@@ -12,7 +12,7 @@ describe('helloWorld function', () => {
     helloWorld();
 
     // Expect console.log to have been called with 'Hello, World!'
-    expect(consoleLogSpy).toHaveBeenCalledWith('Hello, World!!');
+    expect(consoleLogSpy).toHaveBeenCalledWith('Hello, World!..!');
 
     // Restore the original console.log
     consoleLogSpy.mockRestore();
