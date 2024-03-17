@@ -19,7 +19,8 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: pnpm install 
+        run: npm install -g pnpm
+             pnpm install 
              pnpm install --save-dev jest
 
       - name: Run tests
