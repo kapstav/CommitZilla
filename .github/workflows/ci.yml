@@ -19,11 +19,11 @@ jobs:
           node-version: '14'
 
       - name: Install dependencies
-        run: npm install 
-             npm install --save-dev jest
+        run: pnpm install 
+             pnpm install --save-dev jest
 
       - name: Run tests
-        run: npm test
+        run: pnpm test
 
       - name: Commit and push changes
         run: |
@@ -31,7 +31,3 @@ jobs:
             git config --global user.name "GitHub Actions"
 
             echo "Commit SHA: $GITHUB_SHA" >> commit_info.txt  # Save commit SHA to a file
-
-
-
- 
