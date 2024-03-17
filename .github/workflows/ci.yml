@@ -24,7 +24,7 @@ jobs:
              pnpm install --save-dev jest
 
       - name: Run tests
-        run: pnpm test
+        run: npm test
 
       - name: Commit and push changes
         run: |
