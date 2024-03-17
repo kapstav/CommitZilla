@@ -1,5 +1,5 @@
 // Export the function
-export default function helloWorld() {
+module.exports = function helloWorld() {
     console.log('Hello, World!');
   }
   
