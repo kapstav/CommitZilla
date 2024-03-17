@@ -1,0 +1,18 @@
+{
+    "name": "hello-world-node",
+    "version": "1.0.0",
+    "description": "A simple Node.js program that prints 'Hello, World!' to the console",
+    "main": "aone.js",
+    "scripts": {
+      "test": "echo 'No tests yet'",
+      "start": "node aone.js"
+    },
+    "keywords": [
+      "node",
+      "hello",
+      "world"
+    ],
+    "author": "Your Name",
+    "license": "MIT"
+  }
+  
