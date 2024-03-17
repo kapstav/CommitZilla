@@ -24,7 +24,7 @@ jobs:
       - name: Install dependencies
         run: npm install -g pnpm
              pnpm install 
-
+             pnpm install --save-dev jest
 
       - name: Cache Jest modules
         uses: actions/cache@v2
@@ -33,7 +33,7 @@ jobs:
                key: ${{ runner.os }}-jest-${{ hashFiles('**/package.json') }}
                restore-keys: |
                  ${{ runner.os }}-jest-
-
+                    
       - name: Run tests
         run: npm test
 
