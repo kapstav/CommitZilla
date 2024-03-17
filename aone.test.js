@@ -1,5 +1,5 @@
 // Import the function to test
-const helloWorld = require('./app');
+const helloWorld = require('./aone');
 
 // Test suite
 describe('helloWorld function', () => {
